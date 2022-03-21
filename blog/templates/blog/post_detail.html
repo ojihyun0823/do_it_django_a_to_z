@@ -111,7 +111,7 @@
           <!-- Date/Time -->
           <p>Posted on {{ post.created_at }}</p>
           <!-- Preview Image -->
-          <img class="img-fluid rounded" src="http://via.placeholder.com/750x300"  alt="img site">
+          <img class="img-fluid rounded" src="{{ post.head_image.url } }  alt="">
           <!-- Post Content -->
           <p>{{ post.content }}</p>
           <!-- Comments Form -->
